@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap');
+body{
+    margin: 0;
+    line-height: normal;
+    background-color: #84c7ae;
+}
+
+.rectangleDiv {
+    position:relative;
+    border-radius: 50px;
+    background-color: #f6fbf9;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+}
+
+.logintitle{
+    margin-top: 6rem;
+    position:relative;
+    font-size: 42px;
+    font-family: Jura;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.loginsubtitle{
+    position:relative;
+    font-family: Jura;
+    color:black;
+    text-align: center;
+    display: inline-block;
+}
+
+.form{
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+form>input {
+    margin: 1rem;
+    position: relative;
+    border-radius: 16px;
+    background-color: #e0e0e0;
+    border: 1.5px solid rgba(0,0,0, 0.1);
+    box-sizing: border-box;
+    height: 72px;
+    padding: 1rem;
+    width: 81%;
+    font-size: 24px;
+}
+.loginButton {
+    margin: 4rem;
+    padding:1rem;
+    position: relative;
+    border-radius: 45px;
+    background-color: #84c7ae;
+    width: 40%;
+    height: 56px;
+}
+
